@@ -1,0 +1,35 @@
+:: Main directory
+mkdir src\features\education\person
+
+:: Subdirectories
+mkdir src\features\education\person\const
+mkdir src\features\education\person\schemas
+mkdir src\features\education\person\services
+mkdir src\features\education\person\store
+mkdir src\features\education\person\types
+mkdir src\features\education\person\pages
+mkdir src\features\education\person\components
+
+:: Type definitions
+type NUL > src\features\education\person\types\index.ts
+
+:: Constants
+type NUL > src\features\education\person\const\personConst.ts
+
+:: Schemas
+type NUL > src\features\education\person\schemas\personSchema.ts
+
+:: Services
+type NUL > src\features\education\person\services\personApi.ts
+
+:: Store (Redux slice)
+type NUL > src\features\education\person\store\personSlice.ts
+
+:: Components
+type NUL > src\features\education\person\components\PersonForm.tsx
+type NUL > src\features\education\person\components\PersonDetailsModal.tsx
+type NUL > src\features\education\person\components\PersonFormModal.tsx
+
+:: Pages
+type NUL > src\features\education\person\pages\PersonManagementPage.tsx
+type NUL > src\features\education\person\pages\PersonRegisterPage.tsx

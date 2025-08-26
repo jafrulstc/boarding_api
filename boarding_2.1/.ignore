@@ -1,0 +1,28 @@
+# Node modules
+boarding_2.1/node_modules/
+boarding_2.1/# Logs
+boarding_2.1/npm-debug.log*
+boarding_2.1/yarn-debug.log*
+boarding_2.1/yarn-error.log*
+boarding_2.1/pnpm-debug.log*
+boarding_2.1/lerna-debug.log*
+boarding_2.1/src - Copy
+# Environment files
+boarding_2.1/.env
+boarding_2.1/.env.local
+boarding_2.1/.env.*.local
+# Build output
+boarding_2.1/dist/
+boarding_2.1/build/
+boarding_2.1/.cache/
+/# OS-specific files
+boarding_2.1/.DS_Store
+boarding_2.1/Thumbs.db
+
+# IDE specific
+boarding_2.1/.vscode/
+boarding_2.1/.idea/
+boarding_2.1/*.swp
+
+# Optional: test coverage
+boarding_2.1/coverage/

@@ -1,0 +1,80 @@
+Relation
+তালিমি মুরুব্বি
+class role
+
+previews school:
+class name
+result
+
+teacher, staff:
+relation
+
+
+
+Relation
+তালিমি মুরুব্বি
+class role
+
+previews school:
+class name
+result
+
+teacher, staff:
+relation
+
+তোমার মোটা দাগে কয়েকটা কাজ করতে হবে
+src\features\core
+src\features\education
+এই দুইটা লোকেশনে আরো অনেক ফাইল,ফোল্ডার আছে।
+
+task 1:
+src\features\core এই লোকেশনের general tab এ দুইটা tab নিবে 
+designation category
+Educational Mentor
+
+designation category এর fieldগুলো হলো id, name, create at, update at, 
+Educational Mentor এর fieldগুলো guardian type এর fieldগুলোই হবে। 
+
+task 2: 
+designation form এ designation category dropdown field add করবে ।
+এতে করে teacher, staff এদের field এ designation category dropdown field add করবে. সে অনুযায়ী designation এর data show করবে। 
+
+
+
+; তোমার মোটা দাগে কয়েকটা কাজ করতে হবে
+; src\features\core
+; src\features\education
+; এই দুইটা লোকেশনে আরো অনেক ফাইল,ফোল্ডার আছে।
+
+; task 1:
+; src\features\core এই লোকেশনের general tab এ দুইটা tab নিবে 
+; designation category
+; Educational Mentor
+
+task :
+1. src\features\core\types\general.ts
+    দুইটা type create করবে,
+    1.designation category
+    2.Educational Mentor
+    designation category এর type হচ্ছে id, name, create_at, update_at
+    Educational Mentor  এর type হচ্ছে guardian type , 
+
+2. src/features/core/services/generalApi.ts
+    এদের জন্য api create করবে
+3. src\features\core\store\generalSlice.ts
+এদের জন্য slice create করবে
+4. src\features\core\schemas\generalSchemas.ts
+    এদের জন্য schema create করবে
+5. src\features\core\components\general এই লোকেশনে নতুন components create করবে বা src\features\core\components\general\NameCrudSection.tsx
+এই ফাইলে create করবে।
+6. src\features\core\const\generalConst.ts
+    কোন constant থাকলে তা এখানে তৈরি করবে। 
+
+মূলত এদের সম্পূর্ণ crud operation করতে হবে।
+
+সবকিছু বুঝেছো কিনা বলো। এই কা কাজ করতে পারবে কিনা জানাও। আরো কিছু জানার থাকলে বলো।
+
+
+
+
+
